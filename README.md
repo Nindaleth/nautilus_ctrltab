@@ -1,6 +1,6 @@
 *Nautilus CtrlTab*
 -----------------------
-Allow to switch tabs via Ctrl+Shift+Tab/Ctrl+Tab in Nautilus, in addition to the existing Ctrl+PageUp/Ctrl+PageDown
+Allow to switch tabs via Ctrl+Shift+Tab/Ctrl+Tab in Nautilus, in addition to the existing Ctrl+PageUp/Ctrl+PageDown hotkeys
 
 Installation
 -----------------------
@@ -11,9 +11,9 @@ Installation
 
 2) Download CtrlTabSwitch and install it
 
-* `git clone https://github.com/nindaleth/nautilus_ctrltab`
-* `mkdir -p ~/.local/share/nautilus-python/extensions/`
-* `ln -s nautilus_ctrltab/CtrlTabSwitch.py ~/.local/share/nautilus-python/extensions/`
+`git clone https://github.com/nindaleth/nautilus_ctrltab`
+`mkdir -p ~/.local/share/nautilus-python/extensions/`
+`ln -s nautilus_ctrltab/CtrlTabSwitch.py ~/.local/share/nautilus-python/extensions/`
 
 3) Restart Nautilus
 
