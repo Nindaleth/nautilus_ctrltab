@@ -1,12 +1,11 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
+# Nautilus CtrlTab Extension
 #
-# by Radek Liska, 2019
+# use ctrl+tab and ctrl+shift+tab to change tabs (in addition to the existing shortcuts)
 #
 
-import os, gi
-gi.require_version('Nautilus', '3.0')
-from gi.repository import GObject, Nautilus, Gtk
+import gi
+gi.require_version("Gtk", "4.0")
+from gi.repository import GObject, Gtk
 
 
 def ok():
@@ -15,7 +14,7 @@ def ok():
     app.set_accels_for_action("win.tab-next", ["<control>Tab", "<control>Page_Down"])
 
 
-class CtrlTabSwitch(GObject.GObject, Nautilus.LocationWidgetProvider):
+class CtrlTabSwitch(GObject.GObject):
     def __init__(self):
         pass
 
