@@ -1,3 +1,5 @@
+Consider [Nautilus Hotkeys](https://github.com/Nindaleth/nautilus_hotkeys) as a richer alternative.
+
 # Nautilus CtrlTab
 
 Allow to switch tabs via `Ctrl+Shift+Tab` and `Ctrl+Tab` in Nautilus, in addition to the existing `Ctrl+PageUp` and `Ctrl+PageDown` hotkeys.
